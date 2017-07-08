@@ -8,16 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		653E09E81F10F9FA00250072 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E09E71F10F9FA00250072 /* AppDelegate.swift */; };
-		653E09EA1F10F9FA00250072 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E09E91F10F9FA00250072 /* ViewController.swift */; };
+		653E09EA1F10F9FA00250072 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E09E91F10F9FA00250072 /* LoginVC.swift */; };
 		653E09ED1F10F9FA00250072 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 653E09EB1F10F9FA00250072 /* Main.storyboard */; };
 		653E09EF1F10F9FA00250072 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 653E09EE1F10F9FA00250072 /* Assets.xcassets */; };
 		653E09F21F10F9FA00250072 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 653E09F01F10F9FA00250072 /* LaunchScreen.storyboard */; };
+		653E0A161F113C4E00250072 /* StartScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E0A151F113C4E00250072 /* StartScreenVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		653E09E41F10F9FA00250072 /* SkateApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkateApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		653E09E71F10F9FA00250072 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		653E09E91F10F9FA00250072 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		653E09E91F10F9FA00250072 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		653E09EC1F10F9FA00250072 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		653E09EE1F10F9FA00250072 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		653E09F11F10F9FA00250072 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -26,6 +27,7 @@
 		653E09FE1F10F9FA00250072 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		653E0A071F10F9FA00250072 /* SkateAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkateAppUITests.swift; sourceTree = "<group>"; };
 		653E0A091F10F9FA00250072 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		653E0A151F113C4E00250072 /* StartScreenVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartScreenVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +63,12 @@
 			isa = PBXGroup;
 			children = (
 				653E09E71F10F9FA00250072 /* AppDelegate.swift */,
-				653E09E91F10F9FA00250072 /* ViewController.swift */,
+				653E09E91F10F9FA00250072 /* LoginVC.swift */,
 				653E09EB1F10F9FA00250072 /* Main.storyboard */,
 				653E09EE1F10F9FA00250072 /* Assets.xcassets */,
 				653E09F01F10F9FA00250072 /* LaunchScreen.storyboard */,
 				653E09F31F10F9FA00250072 /* Info.plist */,
+				653E0A151F113C4E00250072 /* StartScreenVC.swift */,
 			);
 			path = SkateApp;
 			sourceTree = "<group>";
@@ -161,7 +164,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				653E09EA1F10F9FA00250072 /* ViewController.swift in Sources */,
+				653E09EA1F10F9FA00250072 /* LoginVC.swift in Sources */,
+				653E0A161F113C4E00250072 /* StartScreenVC.swift in Sources */,
 				653E09E81F10F9FA00250072 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
