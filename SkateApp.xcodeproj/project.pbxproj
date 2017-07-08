@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		653E09E81F10F9FA00250072 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E09E71F10F9FA00250072 /* AppDelegate.swift */; };
+		653E09EA1F10F9FA00250072 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E09E91F10F9FA00250072 /* ViewController.swift */; };
+		653E09ED1F10F9FA00250072 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 653E09EB1F10F9FA00250072 /* Main.storyboard */; };
+		653E09EF1F10F9FA00250072 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 653E09EE1F10F9FA00250072 /* Assets.xcassets */; };
+		653E09F21F10F9FA00250072 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 653E09F01F10F9FA00250072 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		653E09E41F10F9FA00250072 /* SkateApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkateApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		653E09E71F10F9FA00250072 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		653E09E91F10F9FA00250072 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		653E09EC1F10F9FA00250072 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		653E09EE1F10F9FA00250072 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		653E09F11F10F9FA00250072 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		653E09F31F10F9FA00250072 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		653E09FC1F10F9FA00250072 /* SkateAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkateAppTests.swift; sourceTree = "<group>"; };
+		653E09FE1F10F9FA00250072 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		653E0A071F10F9FA00250072 /* SkateAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkateAppUITests.swift; sourceTree = "<group>"; };
+		653E0A091F10F9FA00250072 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		653E09E11F10F9FA00250072 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		653E09DB1F10F9FA00250072 = {
+			isa = PBXGroup;
+			children = (
+				653E09E61F10F9FA00250072 /* SkateApp */,
+				653E09FB1F10F9FA00250072 /* SkateAppTests */,
+				653E0A061F10F9FA00250072 /* SkateAppUITests */,
+				653E09E51F10F9FA00250072 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		653E09E51F10F9FA00250072 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				653E09E41F10F9FA00250072 /* SkateApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		653E09E61F10F9FA00250072 /* SkateApp */ = {
+			isa = PBXGroup;
+			children = (
+				653E09E71F10F9FA00250072 /* AppDelegate.swift */,
+				653E09E91F10F9FA00250072 /* ViewController.swift */,
+				653E09EB1F10F9FA00250072 /* Main.storyboard */,
+				653E09EE1F10F9FA00250072 /* Assets.xcassets */,
+				653E09F01F10F9FA00250072 /* LaunchScreen.storyboard */,
+				653E09F31F10F9FA00250072 /* Info.plist */,
+			);
+			path = SkateApp;
+			sourceTree = "<group>";
+		};
+		653E09FB1F10F9FA00250072 /* SkateAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				653E09FC1F10F9FA00250072 /* SkateAppTests.swift */,
+				653E09FE1F10F9FA00250072 /* Info.plist */,
+			);
+			path = SkateAppTests;
+			sourceTree = "<group>";
+		};
+		653E0A061F10F9FA00250072 /* SkateAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				653E0A071F10F9FA00250072 /* SkateAppUITests.swift */,
+				653E0A091F10F9FA00250072 /* Info.plist */,
+			);
+			path = SkateAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		653E09E31F10F9FA00250072 /* SkateApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 653E0A0C1F10F9FA00250072 /* Build configuration list for PBXNativeTarget "SkateApp" */;
+			buildPhases = (
+				653E09E01F10F9FA00250072 /* Sources */,
+				653E09E11F10F9FA00250072 /* Frameworks */,
+				653E09E21F10F9FA00250072 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkateApp;
+			productName = SkateApp;
+			productReference = 653E09E41F10F9FA00250072 /* SkateApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		653E09DC1F10F9FA00250072 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Daniel Reicher";
+				TargetAttributes = {
+					653E09E31F10F9FA00250072 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 87T7CSYT4W;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 653E09DF1F10F9FA00250072 /* Build configuration list for PBXProject "SkateApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 653E09DB1F10F9FA00250072;
+			productRefGroup = 653E09E51F10F9FA00250072 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				653E09E31F10F9FA00250072 /* SkateApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		653E09E21F10F9FA00250072 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				653E09F21F10F9FA00250072 /* LaunchScreen.storyboard in Resources */,
+				653E09EF1F10F9FA00250072 /* Assets.xcassets in Resources */,
+				653E09ED1F10F9FA00250072 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		653E09E01F10F9FA00250072 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				653E09EA1F10F9FA00250072 /* ViewController.swift in Sources */,
+				653E09E81F10F9FA00250072 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		653E09EB1F10F9FA00250072 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				653E09EC1F10F9FA00250072 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		653E09F01F10F9FA00250072 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				653E09F11F10F9FA00250072 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		653E0A0A1F10F9FA00250072 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		653E0A0B1F10F9FA00250072 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		653E0A0D1F10F9FA00250072 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 87T7CSYT4W;
+				INFOPLIST_FILE = SkateApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Daniel.Reicher.SkateApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		653E0A0E1F10F9FA00250072 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 87T7CSYT4W;
+				INFOPLIST_FILE = SkateApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Daniel.Reicher.SkateApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		653E09DF1F10F9FA00250072 /* Build configuration list for PBXProject "SkateApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				653E0A0A1F10F9FA00250072 /* Debug */,
+				653E0A0B1F10F9FA00250072 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		653E0A0C1F10F9FA00250072 /* Build configuration list for PBXNativeTarget "SkateApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				653E0A0D1F10F9FA00250072 /* Debug */,
+				653E0A0E1F10F9FA00250072 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 653E09DC1F10F9FA00250072 /* Project object */;
+}
