@@ -10,18 +10,31 @@ import UIKit
 
 class LoginVC: UIViewController {
 
+    @IBOutlet weak var UsernameOutlet: UITextField!
     
+    @IBOutlet weak var PasswortOutlet: UITextField!
+    
+
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        UsernameOutlet.attributedPlaceholder = NSAttributedString(string: "Username", attributes: [NSForegroundColorAttributeName: UIColor.black])
+        PasswortOutlet.attributedPlaceholder = NSAttributedString(string: "Passwort", attributes: [NSForegroundColorAttributeName: UIColor.black])
+        
     }
 
     
     
+    @IBAction func LoginBtn(_ sender: Any) {
+        performSegue(withIdentifier: "login", sender: nil)
+    }
     
     
-
+    
+    
+    
+    
+    
 }
 
