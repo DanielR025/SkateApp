@@ -15,12 +15,12 @@ class StartScreenVC: UIViewController {
 
         
     }
-
+//1
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         
     }
-    
+//2
 
     /*
     // MARK: - Navigation
