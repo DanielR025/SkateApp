@@ -17,7 +17,7 @@ class SkateCell: UITableViewCell {
 
     
     var buttonNumber:Int!
-    
+    var wefew = CellData()
     
     @IBAction func skateButton(_ sender: UIButton) {
         sender.tag = buttonNumber
@@ -34,14 +34,9 @@ class SkateCell: UITableViewCell {
    
     
     func configureCell(number: Int){
-        skateImage.image = UIImage(named: "Picture\(number)")
-        switch buttonNumber {
-        case 0: imageText.text = "Crew"
-        case 1: imageText.text = "Skatespots"
-        case 2: imageText.text = "Videos"
-        case 3: imageText.text = "Bilder"
-        default: print("Error")
+        wefew.setLableAndImage(Number: number)
+        skateImage.image = wefew.image
+        imageText.text = wefew.txtLbl
         }
-    }
     
 }

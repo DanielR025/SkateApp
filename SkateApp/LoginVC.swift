@@ -17,11 +17,11 @@ class LoginVC: UIViewController {
 
     
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         UsernameOutlet.attributedPlaceholder = NSAttributedString(string: "Username", attributes: [NSForegroundColorAttributeName: UIColor.black])
         PasswortOutlet.attributedPlaceholder = NSAttributedString(string: "Passwort", attributes: [NSForegroundColorAttributeName: UIColor.black])
-        
     }
 
     

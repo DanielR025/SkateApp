@@ -15,7 +15,6 @@ class StartscreenVC: UIViewController, UITableViewDelegate, UITableViewDataSourc
     @IBOutlet weak var TableView: UITableView!
     
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
