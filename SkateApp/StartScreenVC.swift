@@ -16,7 +16,6 @@ class StartscreenVC: UIViewController, UITableViewDelegate, UITableViewDataSourc
     
     
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -39,10 +38,18 @@ class StartscreenVC: UIViewController, UITableViewDelegate, UITableViewDataSourc
 
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
-        
-        return UITableViewCell()
+        if let cell = tableView.dequeueReusableCell(withIdentifier: "SkateCell", for: indexPath) as? SkateCell {
+            print(indexPath.row)
+            cell.buttonNumber = indexPath.row
+            cell.configureCell(number: indexPath.row)
+            
+            
+        return cell
+        }
+    
+    return SkateCell()
     }
+    
     
     
     
