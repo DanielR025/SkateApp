@@ -14,6 +14,7 @@
 		653E09F21F10F9FA00250072 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 653E09F01F10F9FA00250072 /* LaunchScreen.storyboard */; };
 		6572583C1F16B408008F095C /* StartscreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6572583B1F16B408008F095C /* StartscreenVC.swift */; };
 		6572583E1F17AB06008F095C /* SkateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6572583D1F17AB06008F095C /* SkateCell.swift */; };
+		657258421F17FD4E008F095C /* CellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657258411F17FD4E008F095C /* CellData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		653E0A091F10F9FA00250072 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6572583B1F16B408008F095C /* StartscreenVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartscreenVC.swift; sourceTree = "<group>"; };
 		6572583D1F17AB06008F095C /* SkateCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkateCell.swift; sourceTree = "<group>"; };
+		657258411F17FD4E008F095C /* CellData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				653E09E91F10F9FA00250072 /* LoginVC.swift */,
 				6572583B1F16B408008F095C /* StartscreenVC.swift */,
 				6572583D1F17AB06008F095C /* SkateCell.swift */,
+				657258411F17FD4E008F095C /* CellData.swift */,
 				653E09EB1F10F9FA00250072 /* Main.storyboard */,
 				653E09EE1F10F9FA00250072 /* Assets.xcassets */,
 				653E09F01F10F9FA00250072 /* LaunchScreen.storyboard */,
@@ -170,6 +173,7 @@
 				653E09EA1F10F9FA00250072 /* LoginVC.swift in Sources */,
 				653E09E81F10F9FA00250072 /* AppDelegate.swift in Sources */,
 				6572583E1F17AB06008F095C /* SkateCell.swift in Sources */,
+				657258421F17FD4E008F095C /* CellData.swift in Sources */,
 				6572583C1F16B408008F095C /* StartscreenVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
