@@ -3,7 +3,6 @@ target 'SkateApp' do
   use_frameworks!
 
   # Pods for SkateApp
-pod 'AMScrollingNavbar'
 pod 'Firebase/Core'
 pod 'Firebase/Auth'
 

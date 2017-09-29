@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import AMScrollingNavbar
 import Firebase
 
 class StartscreenVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
@@ -23,16 +22,18 @@ class StartscreenVC: UIViewController, UITableViewDelegate, UITableViewDataSourc
         TableView.delegate = self
         TableView.dataSource = self
         
+        TableView.contentInset = UIEdgeInsetsMake(-44,0,0,0)
+        TableView.backgroundColor = UIColor.black
+        
+        self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: UIBarMetrics.default)
+        self.navigationController?.navigationBar.shadowImage = UIImage()
+        self.navigationController?.navigationBar.isTranslucent = true
+        self.navigationController?.view.backgroundColor = UIColor.clear
+        self.navigationController?.navigationBar.tintColor = UIColor.white
+        
     }
 
     
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        
-        if let navigationController = self.navigationController as? ScrollingNavigationController {
-            navigationController.followScrollView(TableView, delay: 50.0)
-        }
-    }
     
     
     
@@ -64,7 +65,7 @@ class StartscreenVC: UIViewController, UITableViewDelegate, UITableViewDataSourc
     
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 4
+        return 5
     }
 
     
@@ -92,9 +93,10 @@ class StartscreenVC: UIViewController, UITableViewDelegate, UITableViewDataSourc
         
         switch number {
         case 0: print("Segue0")
-        case 1: print("Segue1")
-        case 2: print("Segue2")
+        case 1: performSegue(withIdentifier: "skateSpots", sender: self)
+        case 2: performSegue(withIdentifier: "chat", sender: self)
         case 3: print("Segue3")
+        case 4: print("Segue4")
         default: print("Segue4")
         }
     }

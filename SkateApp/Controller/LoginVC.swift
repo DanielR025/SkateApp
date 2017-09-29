@@ -55,6 +55,21 @@ class LoginVC: UIViewController, UITextFieldDelegate {
             
             if error != nil {
                 print(error)
+                
+                if error != nil {
+                    
+                    
+                    let errCode = AuthErrorCode(rawValue: error!._code)!
+                    switch errCode {
+                    case .wrongPassword:
+                        self.alertErrorLogin(errorTxt: "Wrong passwort")
+                    case .userNotFound:
+                        self.alertErrorLogin(errorTxt: "User not found")
+                    default:
+                        print("Create User Error")
+                    }
+                }
+
             } else {
                 print("sign in")
                 self.performSegue(withIdentifier: "login", sender: self)
@@ -68,7 +83,18 @@ class LoginVC: UIViewController, UITextFieldDelegate {
     @IBAction func registerBtnPressed(_ sender: Any) {
         Auth.auth().createUser(withEmail: emailTextfield.text!, password: passwortTextfield.text!) { (user, error) in
             if error != nil {
-                print(error)
+                
+                let errCode = AuthErrorCode(rawValue: error!._code)!
+                switch errCode {
+                case .invalidEmail:
+                    self.alertErrorRegister(errorTxt: "Invalid email")
+                case .weakPassword:
+                    self.alertErrorRegister(errorTxt: "Weak passwort")
+                case .emailAlreadyInUse:
+                    self.alertErrorRegister(errorTxt: "Email already in use")
+                default:
+                    print("Create User Error")
+                }
             } else {
                 print("registration successfull")
                 self.performSegue(withIdentifier: "login", sender: self)
@@ -180,6 +206,20 @@ class LoginVC: UIViewController, UITextFieldDelegate {
             }
             
         }
+    }
+    
+    func alertErrorRegister(errorTxt: String){
+        let alert = UIAlertController(title: "Registration Error", message: errorTxt, preferredStyle: .alert)
+        let okButton = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+        alert.addAction(okButton)
+        present(alert, animated: true, completion: nil)
+    }
+    
+    func alertErrorLogin(errorTxt: String){
+        let alert = UIAlertController(title: "Login Error", message: errorTxt, preferredStyle: .alert)
+        let okButton = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+        alert.addAction(okButton)
+        present(alert, animated: true, completion: nil)
     }
     
     

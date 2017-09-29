@@ -22,8 +22,9 @@ class SkateCell: UITableViewCell {
         switch number {
         case 0: imageText.text = "Crew"
         case 1: imageText.text = "Skatespots"
-        case 2: imageText.text = "Videos"
+        case 2: imageText.text = "Chat"
         case 3: imageText.text = "Bilder"
+        case 4: imageText.text = "Videos"
         default: print("error")
         }
     }
