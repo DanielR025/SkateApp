@@ -7,15 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		651070811F76C2230054E1F6 /* SkatespotsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6510707F1F76C2230054E1F6 /* SkatespotsVC.swift */; };
+		651070861F76CD210054E1F6 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651070841F76CD210054E1F6 /* CustomCell.swift */; };
+		651070871F76CD210054E1F6 /* SkateCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 651070851F76CD210054E1F6 /* SkateCell.xib */; };
+		651070891F79415E0054E1F6 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651070881F79415E0054E1F6 /* ChatVC.swift */; };
+		6510708E1F7944F40054E1F6 /* ChatCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6510708C1F7944F40054E1F6 /* ChatCell.xib */; };
 		653E09E81F10F9FA00250072 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E09E71F10F9FA00250072 /* AppDelegate.swift */; };
 		653E09EA1F10F9FA00250072 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E09E91F10F9FA00250072 /* LoginVC.swift */; };
 		653E09ED1F10F9FA00250072 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 653E09EB1F10F9FA00250072 /* Main.storyboard */; };
 		653E09EF1F10F9FA00250072 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 653E09EE1F10F9FA00250072 /* Assets.xcassets */; };
 		653E09F21F10F9FA00250072 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 653E09F01F10F9FA00250072 /* LaunchScreen.storyboard */; };
-		653E0A161F113C4E00250072 /* StartScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E0A151F113C4E00250072 /* StartScreenVC.swift */; };
+		6558E97F1F702E69008ABC09 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 65E1CC301F7028450002AF83 /* GoogleService-Info.plist */; };
+		655EBC0D1F6C46F500345DD5 /* Pacifico.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 655EBC0C1F6C331800345DD5 /* Pacifico.ttf */; };
+		656746AD1F7AE7BE0021278C /* CustomChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656746AC1F7AE7BE0021278C /* CustomChatCell.swift */; };
+		6572583C1F16B408008F095C /* StartscreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6572583B1F16B408008F095C /* StartscreenVC.swift */; };
+		6572583E1F17AB06008F095C /* SkateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6572583D1F17AB06008F095C /* SkateCell.swift */; };
+		BE1FE5A0FEFD61B55F4E7488 /* Pods_SkateApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A3339722526AE1ED690A92A /* Pods_SkateApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B8ECA6EBB66EFE6F03BBAA8 /* Pods-SkateApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkateApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SkateApp/Pods-SkateApp.release.xcconfig"; sourceTree = "<group>"; };
+		3A7F65215A1D394F537A9264 /* Pods-SkateApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkateApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SkateApp/Pods-SkateApp.debug.xcconfig"; sourceTree = "<group>"; };
+		4A3339722526AE1ED690A92A /* Pods_SkateApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkateApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6510707F1F76C2230054E1F6 /* SkatespotsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkatespotsVC.swift; sourceTree = "<group>"; };
+		651070841F76CD210054E1F6 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		651070851F76CD210054E1F6 /* SkateCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SkateCell.xib; sourceTree = "<group>"; };
+		651070881F79415E0054E1F6 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		6510708C1F7944F40054E1F6 /* ChatCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatCell.xib; sourceTree = "<group>"; };
 		653E09E41F10F9FA00250072 /* SkateApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkateApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		653E09E71F10F9FA00250072 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		653E09E91F10F9FA00250072 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
@@ -27,7 +45,11 @@
 		653E09FE1F10F9FA00250072 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		653E0A071F10F9FA00250072 /* SkateAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkateAppUITests.swift; sourceTree = "<group>"; };
 		653E0A091F10F9FA00250072 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		653E0A151F113C4E00250072 /* StartScreenVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartScreenVC.swift; sourceTree = "<group>"; };
+		655EBC0C1F6C331800345DD5 /* Pacifico.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pacifico.ttf; sourceTree = "<group>"; };
+		656746AC1F7AE7BE0021278C /* CustomChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomChatCell.swift; sourceTree = "<group>"; };
+		6572583B1F16B408008F095C /* StartscreenVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartscreenVC.swift; sourceTree = "<group>"; };
+		6572583D1F17AB06008F095C /* SkateCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkateCell.swift; sourceTree = "<group>"; };
+		65E1CC301F7028450002AF83 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,12 +57,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE1FE5A0FEFD61B55F4E7488 /* Pods_SkateApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0ED854565FF00D18E33DB269 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A7F65215A1D394F537A9264 /* Pods-SkateApp.debug.xcconfig */,
+				1B8ECA6EBB66EFE6F03BBAA8 /* Pods-SkateApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		651070831F76CCC00054E1F6 /* CustomCellSkateSpots */ = {
+			isa = PBXGroup;
+			children = (
+				651070841F76CD210054E1F6 /* CustomCell.swift */,
+				651070851F76CD210054E1F6 /* SkateCell.xib */,
+			);
+			path = CustomCellSkateSpots;
+			sourceTree = "<group>";
+		};
+		6510708A1F7944D30054E1F6 /* CustomCellChat */ = {
+			isa = PBXGroup;
+			children = (
+				6510708C1F7944F40054E1F6 /* ChatCell.xib */,
+				656746AC1F7AE7BE0021278C /* CustomChatCell.swift */,
+			);
+			path = CustomCellChat;
+			sourceTree = "<group>";
+		};
 		653E09DB1F10F9FA00250072 = {
 			isa = PBXGroup;
 			children = (
@@ -48,6 +98,8 @@
 				653E09FB1F10F9FA00250072 /* SkateAppTests */,
 				653E0A061F10F9FA00250072 /* SkateAppUITests */,
 				653E09E51F10F9FA00250072 /* Products */,
+				0ED854565FF00D18E33DB269 /* Pods */,
+				E33F4C1769609D6CE921BC45 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,13 +114,13 @@
 		653E09E61F10F9FA00250072 /* SkateApp */ = {
 			isa = PBXGroup;
 			children = (
-				653E09E71F10F9FA00250072 /* AppDelegate.swift */,
-				653E09E91F10F9FA00250072 /* LoginVC.swift */,
-				653E09EB1F10F9FA00250072 /* Main.storyboard */,
+				655EBC0B1F6C28F500345DD5 /* View */,
+				655EBC0A1F6C28EE00345DD5 /* Model */,
+				655EBC091F6C28E200345DD5 /* Controller */,
 				653E09EE1F10F9FA00250072 /* Assets.xcassets */,
-				653E09F01F10F9FA00250072 /* LaunchScreen.storyboard */,
+				655EBC0C1F6C331800345DD5 /* Pacifico.ttf */,
 				653E09F31F10F9FA00250072 /* Info.plist */,
-				653E0A151F113C4E00250072 /* StartScreenVC.swift */,
+				65E1CC301F7028450002AF83 /* GoogleService-Info.plist */,
 			);
 			path = SkateApp;
 			sourceTree = "<group>";
@@ -91,6 +143,45 @@
 			path = SkateAppUITests;
 			sourceTree = "<group>";
 		};
+		655EBC091F6C28E200345DD5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				653E09E71F10F9FA00250072 /* AppDelegate.swift */,
+				653E09E91F10F9FA00250072 /* LoginVC.swift */,
+				6572583B1F16B408008F095C /* StartscreenVC.swift */,
+				6510707F1F76C2230054E1F6 /* SkatespotsVC.swift */,
+				651070881F79415E0054E1F6 /* ChatVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		655EBC0A1F6C28EE00345DD5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		655EBC0B1F6C28F500345DD5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6510708A1F7944D30054E1F6 /* CustomCellChat */,
+				651070831F76CCC00054E1F6 /* CustomCellSkateSpots */,
+				653E09EB1F10F9FA00250072 /* Main.storyboard */,
+				653E09F01F10F9FA00250072 /* LaunchScreen.storyboard */,
+				6572583D1F17AB06008F095C /* SkateCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E33F4C1769609D6CE921BC45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A3339722526AE1ED690A92A /* Pods_SkateApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -98,9 +189,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 653E0A0C1F10F9FA00250072 /* Build configuration list for PBXNativeTarget "SkateApp" */;
 			buildPhases = (
+				CCF1D6485CD1150A8BB8D5AB /* [CP] Check Pods Manifest.lock */,
 				653E09E01F10F9FA00250072 /* Sources */,
 				653E09E11F10F9FA00250072 /* Frameworks */,
 				653E09E21F10F9FA00250072 /* Resources */,
+				BA278BED460770316CD666ED /* [CP] Embed Pods Frameworks */,
+				A1FA03F530BFC62EF27367EF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -151,22 +245,79 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6510708E1F7944F40054E1F6 /* ChatCell.xib in Resources */,
 				653E09F21F10F9FA00250072 /* LaunchScreen.storyboard in Resources */,
 				653E09EF1F10F9FA00250072 /* Assets.xcassets in Resources */,
+				651070871F76CD210054E1F6 /* SkateCell.xib in Resources */,
+				6558E97F1F702E69008ABC09 /* GoogleService-Info.plist in Resources */,
+				655EBC0D1F6C46F500345DD5 /* Pacifico.ttf in Resources */,
 				653E09ED1F10F9FA00250072 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A1FA03F530BFC62EF27367EF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SkateApp/Pods-SkateApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA278BED460770316CD666ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SkateApp/Pods-SkateApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCF1D6485CD1150A8BB8D5AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		653E09E01F10F9FA00250072 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				651070811F76C2230054E1F6 /* SkatespotsVC.swift in Sources */,
+				651070891F79415E0054E1F6 /* ChatVC.swift in Sources */,
+				656746AD1F7AE7BE0021278C /* CustomChatCell.swift in Sources */,
 				653E09EA1F10F9FA00250072 /* LoginVC.swift in Sources */,
-				653E0A161F113C4E00250072 /* StartScreenVC.swift in Sources */,
 				653E09E81F10F9FA00250072 /* AppDelegate.swift in Sources */,
+				6572583E1F17AB06008F095C /* SkateCell.swift in Sources */,
+				651070861F76CD210054E1F6 /* CustomCell.swift in Sources */,
+				6572583C1F16B408008F095C /* StartscreenVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +438,7 @@
 		};
 		653E0A0D1F10F9FA00250072 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A7F65215A1D394F537A9264 /* Pods-SkateApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 87T7CSYT4W;
@@ -300,6 +452,7 @@
 		};
 		653E0A0E1F10F9FA00250072 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B8ECA6EBB66EFE6F03BBAA8 /* Pods-SkateApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 87T7CSYT4W;
@@ -330,6 +483,7 @@
 				653E0A0E1F10F9FA00250072 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
